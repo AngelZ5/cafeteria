@@ -24,6 +24,6 @@ O site é uma representação fictícia de uma cafeteria que oferece uma varieda
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/project-coffee.git
+   git clone https://github.com/AngelZ5/cafeteria.git
 
 ## Feito em parceria com Devclub
