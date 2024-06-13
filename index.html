@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Coffee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-black m-0 p-0 box-border outline-none border-none no-underline transition-all duration-200">
+    <header class="fixed top-0 left-0 right-0 z-50 border-b border-white/30 bg-black">
+        <section class="flex items-center justify-between py-4 max-w-screen-xl mx-auto px-4">
+            <a href="#" class="logo">
+                <img src="https://i.ibb.co/yp84LgK/logo.png" alt="Logo" class="h-12">
+            </a>
+            <nav class="flex space-x-4">
+                <a href="#"
+                    class="text-lg text-white hover:text-main hover:border-b hover:border-main pb-1 transition-all">Home</a>
+                <a href="#about"
+                    class="text-lg text-white hover:text-main hover:border-b hover:border-main pb-1 transition-all">Sobre</a>
+                <a href="#menu"
+                    class="text-lg text-white hover:text-main hover:border-b hover:border-main pb-1 transition-all">Menu</a>
+                <a href="#review"
+                    class="text-lg text-white hover:text-main hover:border-b hover:border-main pb-1 transition-all">Avaliações</a>
+                <a href="#address"
+                    class="text-lg text-white hover:text-main hover:border-b hover:border-main pb-1 transition-all">Endereço</a>
+            </nav>
+            <div class="flex space-x-4">
+                <img width="30" height="30" src="https://img.icons8.com/ios/50/ffffff/search--v1.png" alt="search--v1"
+                    class="cursor-pointer hover:w-10 hover:h-10 transition-all" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" class="cursor-pointer hover:w-10 hover:h-10 transition-all" />
+            </div>
+        </section>
+    </header>
+
+    <div class=" bg-cover bg-center min-h-screen flex items-center"
+        style="background-image: url(./src/images/home-img.jpg);">
+
+        <section id="home" class="max-w-screen-xl ml-44 text-white">
+            <div class="max-w-2xl">
+                <h3 class="text-5xl">O melhor café da região!</h3>
+                <p class="text-xl font-light leading-relaxed py-4">Desperte seus sentidos com nossos cafés artesanais,
+                    cuidadosamente selecionados para oferecer a melhor experiência em cada xícara. Nossa paixão por café
+                    nos leva a buscar os grãos mais finos e torrefazê-los com precisão, garantindo sabor e aroma
+                    incomparáveis. Visite-nos e descubra uma variedade de sabores que vão do clássico ao exótico, todos
+                    preparados com amor e dedicação. Aqui, cada café conta uma história única, esperando para ser
+                    saboreada. Seja bem-vindo ao nosso espaço, onde o café é mais do que uma bebida – é uma experiência.
+                </p>
+                <a href="#"
+                    class="btn bg-black  rounded-md text-white py-3 px-8 inline-block mt-4 hover:tracking-widest transition-all">
+                    Pegue o seu Agora
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <section id="about" class="py-12 px-4 max-w-screen-xl mx-auto text-white">
+        <h2 class="text-5xl text-main text-center uppercase mb-16">Sobre <span class="text-white">Nós</span></h2>
+        <div class="flex flex-col md:flex-row items-center bg-black gap-6">
+            <div class="w-full md:w-1/2">
+                <img src="./src/images/about-img.jpg" alt="sobre nós" class="w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <h3 class="text-3xl mb-4">O Que Faz Nosso Café Especial</h3>
+                <p class="text-lg mb-4">É a dedicação e o cuidado em cada etapa do processo. Selecionamos os melhores
+                    grãos, garantindo uma torrefação perfeita que realça os sabores únicos de cada variedade. Nossa
+                    paixão pelo café nos motiva a buscar constantemente a excelência, proporcionando uma experiência
+                    inigualável a cada xícara. Venha descobrir a diferença que um café artesanal pode fazer no seu dia!
+                </p>
+                <p class="text-lg mb-4">Além disso, valorizamos a sustentabilidade e o comércio justo, trabalhando
+                    diretamente com pequenos produtores que compartilham nossos valores. Cada xícara de café que
+                    servimos carrega consigo histórias de dedicação e respeito ao meio ambiente. Combinamos tradição e
+                    inovação para oferecer uma bebida que aquece o corpo e a alma. Experimente e sinta o cuidado e a
+                    paixão que colocamos em cada detalhe do nosso café.</p>
+                <a href="#"
+                    class="btn bg-slate-700 rounded-md text-white py-3 px-8 inline-block mt-4 hover:tracking-widest transition-all">Saiba
+                    mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-12 px-4 max-w-screen-xl mx-auto text-white">
+        <h2 class="text-5xl text-main text-center uppercase mb-16">Nosso <span class="text-white">Menu</span></h2>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div
+                class="text-center border border-white/30 p-6 cursor-pointer transition-all hover:bg-white hover:text-black">
+                <img src="./src/images/menu-1.png" alt="item-01" class="h-40 mx-auto">
+                <h3 class="text-2xl my-4">Café coado</h3>
+                <div class="text-xl mb-4">R$ 15,99 <span class="text-sm line-through font-light">R$ 20,99</span></div>
+                <a href="#"
+                    class="btn bg-main text-white py-3 px-8 inline-block mt-4 hover:tracking-widest transition-all">Adicione
+                    ao Carrinho</a>
+            </div>
+            <!-- Repetir o mesmo bloco para outros itens do menu -->
+        </div>
+    </section>
+
+    <section id="review" class="py-12 px-4 max-w-screen-xl mx-auto text-white">
+        <h2 class="text-5xl text-main text-center uppercase mb-16">Nossos <span class="text-white">Clientes</span></h2>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="text-center border border-white/30 p-6">
+                <img src="./src/images/quote-img.png" alt="Quote" class="mx-auto mb-4">
+                <p class="text-lg font-light mb-4">achei simplesmente incrível! O café deles é sem dúvida o melhor da
+                    região. Eles têm uma seleção de cafés artesanais maravilhosos, cuidadosamente escolhidos para
+                    proporcionar a melhor experiência possível. </p>
+                <img src="./src/images/pic-1.png" alt="foto cliente" class="w-16 h-16 rounded-full mx-auto mb-4">
+                <h3 class="text-2xl mb-4">João da Silva</h3>
+                <div class="flex justify-center space-x-1">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/star--v1.png"
+                        alt="star--v1" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/star-half-empty.png"
+                        alt="star-half-empty" />
+                </div>
+            </div>
+            <!-- Repetir o mesmo bloco para outros clientes -->
+        </div>
+    </section>
+
+    <section id="address" class="py-12 px-4 max-w-screen-xl mx-auto text-white">
+        <h2 class="text-5xl text-main text-center uppercase mb-16">Nossos <span class="text-white">Endereços</span></h2>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="text-center border border-white/30 p-6">
+                <img src="https://img.icons8.com/ios/50/FFFFFF/marker.png" alt="marker" class="mx-auto mb-4">
+                <h3 class="text-2xl my-4">Cafeteria Centro</h3>
+                <p class="text-lg font-light mb-4">R. das Flores, 123, Centro</p>
+            </div>
+            <!-- Repetir o mesmo bloco para outros endereços -->
+        </div>
+    </section>
+</body>
+
+</html>
